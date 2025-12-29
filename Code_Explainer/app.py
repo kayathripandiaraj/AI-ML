@@ -1,6 +1,6 @@
 import streamlit as st
 import google.generativeai as ai
-ai.configure(api_key="AIzaSyBDFS0BcCBL95of0WHbswUigMS7T0N-Bmw")
+ai.configure(api_key="Enter your api key")
 model= ai.GenerativeModel("gemini-1.5-flash")
 st.set_page_config(page_title="🤖Code_Explainer",layout="centered")
 st.title("🤖Code_Explainer")
